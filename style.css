@@ -114,6 +114,13 @@ footer.site{border-top:1px solid var(--panel-line);padding:2rem 0;margin-top:1re
 .foot-inner{display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem;
   font-family:var(--mono);font-size:.78rem;color:var(--graphite);}
 
+.why-portfolio{
+  margin-top:1.75rem;
+  color:var(--graphite);
+  font-size:1.02rem;
+  max-width:68ch;
+}
+
 /* ============ Responsive ============ */
 @media (max-width:640px){
   .header-inner{flex-direction:column;align-items:flex-start;}
