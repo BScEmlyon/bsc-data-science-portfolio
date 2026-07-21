@@ -114,19 +114,11 @@ footer.site{border-top:1px solid var(--panel-line);padding:2rem 0;margin-top:1re
 .foot-inner{display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem;
   font-family:var(--mono);font-size:.78rem;color:var(--graphite);}
 
-.intro-grid{
-  display:grid;
-  grid-template-columns:.85fr 1.15fr;
-  gap:2.5rem;
-  align-items:start;
-}
-.intro-side .why-portfolio{
+.why-portfolio{
+  margin-top:1.75rem;
   color:var(--graphite);
   font-size:1.02rem;
-  margin-top:0;
-}
-@media (max-width:760px){
-  .intro-grid{grid-template-columns:1fr;}
+  max-width:68ch;
 }
 
 /* ============ Responsive ============ */
